@@ -2,12 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/shop/view/{id}', [
+Route::get('/contact/view/{id}', [
     'middleware' => [],
-    'uses' => 'App\Http\Controllers\ShopController@view'
+    'uses' => 'App\Http\Controllers\ContactController@view'
 ]);
 
-Route::get('/shops', [
+Route::get('/contacts', [
     'middleware' => [],
-    'uses' => 'App\Http\Controllers\ShopController@all'
+    'uses' => 'App\Http\Controllers\ContactController@all'
 ]);
