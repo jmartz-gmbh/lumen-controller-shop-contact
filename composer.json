@@ -1,13 +1,13 @@
 {
-    "name": "jmartz-gmbh/lumen-controller-contact",
-    "description": "Php Lumen Contact Controller",
+    "name": "jmartz-gmbh/lumen-controller-shop-contact",
+    "description": "Php Lumen Shop Contact Controller",
     "require": {
         "php": "^7.3|^7.4|^8.0",
         "illuminate/http": "^7.3.0|^8.0",
         "illuminate/support": "^7.3.0|^8.0",
-        "illuminate/database": "^7.3.0|^8.0",
+        "illuminate/database": "^8.40.0",
         "jonathan-martz/lumen-controller": "dev-master",
-        "jmartz-gmbh/lumen-migration-contact": "dev-master"
+        "jmartz-gmbh/lumen-migration-shop-contact": "dev-master"
     },
     "autoload": {
         "classmap": [

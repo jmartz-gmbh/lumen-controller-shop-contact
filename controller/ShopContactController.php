@@ -6,7 +6,7 @@ use \http\Env\Response;
 use \Illuminate\Http\Request;
 use \Illuminate\Support\Facades\DB;
 
-class ContactController extends Controller
+class ShopContactController extends Controller
 {
     /**
      * @param  Request  $request
@@ -28,8 +28,7 @@ class ContactController extends Controller
      * @return Response
      */
     public function id(Request $request, int $id){
-        $contact = DB::table('contacts')
-            ->where('id','=',$id);
+        $contact = DB::table('contacts')->where('id','=',$id);
 
         $count = $contact->count();
 

@@ -5,10 +5,10 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class ShopProvider
+ * Class ShopContactProvider
  * @package App\Providers
  */
-class ContactProvider extends ServiceProvider
+class ShopContactProvider extends ServiceProvider
 {
     /**
      * Register any application services.
